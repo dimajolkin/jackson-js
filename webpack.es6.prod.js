@@ -47,6 +47,9 @@ const clientConfig = {
     library: 'jackson-js',
     libraryTarget: 'umd'
   },
+  optimization: {
+    minimize: false
+  },
   ...defaultConfig
 };
 
